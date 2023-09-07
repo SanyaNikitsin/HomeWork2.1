@@ -1,4 +1,4 @@
-package HomeWork4;
+package HomeWork4;//заполнение массива числами вручную с консоли
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class MainTask1 {
         int array[] = new int[size];// создаём массив int размером size
         System.out.println("заполните массив числами");
         for (int i = 0; i < size; i++) {
-            array[i] = input.nextInt();//заполняем массив числами
+            array[i] = input.nextInt();//заполняем массив числами через консоль
         }
         System.out.println("заполненый массив");
         for (int i = 0; i < size; i++) {
