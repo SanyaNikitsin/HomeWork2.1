@@ -12,8 +12,8 @@ public class MainTask5 {
             array[i] = (int) (Math.random() * (15 + 1)) + 1;//генерирует случайные числа от 1 до 15
             System.out.println(" " + array[i]);//выводит заполн массив ранд числами
         }
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
         int maxIndex = 0;
         int minIndex = 0;
         for (int i = 0; i < array.length; i++) {
