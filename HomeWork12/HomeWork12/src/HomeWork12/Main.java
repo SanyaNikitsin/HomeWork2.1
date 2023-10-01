@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Enter Password");
         String pas = sc.nextLine();
         System.out.println("Confirm password");
-        String conPas = sc.nextLine();
+        String confPas = sc.nextLine();
         /*log.equals(Security.registration(""," ", " "));
         pas.equals(Security.registration("", " "," "));
         Security.registration("dom", "rak", "rak");*/
